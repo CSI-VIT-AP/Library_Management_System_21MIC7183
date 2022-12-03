@@ -1,7 +1,7 @@
 # Library_Management_System
 
 
-Link to open webpage: https://github.com/hemavenkat8642/Library_Management_System.git
+Link to open webpage: https://hemavenkat8642.github.io/Library_Management_System/
 
 1. It's suggested to use the webpage in laptop or computer.
 2. Use full screen mode for better experience.
