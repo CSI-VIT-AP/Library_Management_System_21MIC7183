@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./library_management_system.css"/>
+</head>
+
+<body>
+    <diV>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" onclick="display('sectionHome')">
+                    <img src="https://res.cloudinary.com/dsd8yegd2/image/upload/v1668247474/samples/download_cwpa3q.png" alt="Logo" width="25" height="24" class="d-inline-block align-text-top">
+                    <span class="span1">Library Management System</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" href="#" onclick="display('sectionHome')">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#" onclick="display('sectionLogin')">Login</a>
+                        <a class="nav-link" href="#" onclick="display('sectionReg')">Sign Up</a>
+                        <a class="nav-link" href="#" onclick="display('sectionContact')">Contact US</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="sectionHome">
+        <div class="bg-1">
+            <div class="vitap_bg">
+                <div class="vitap">
+                    <h1 class="text-white text-center welcome">Welcome to VIT-AP Library !!</h1>
+                    <p class="text-white points">
+                        → Explore and borrow any book of your choice through online.<br><br>
+                        → <span style="text-decoration:underline">Library open hours in campus:</span><br>
+                        <span style="color:#00000080">___</span>9:00 AM to 6:00 PM (Mon to Sat)<br><br>
+                        → You can borrow any book and return it to the library in the due time to avoid fine.<br><br>
+                        → Don't give your credentials to any others including your friends.<br><br>
+                        → You must use your own credentials.
+                    </p>
+                </div>
+            </div>
+            <p class="text-white ml-5">© Group-I | Developed by Group-I | Contact: <a href="tel:+91-9581014662">+91-9581014662</a></p>
+        </div>
+    </div>
+    <div id="sectionLogin">
+        <div class="bg-2">
+            <div class="bg-login d-flex flex-column justify-content-center">
+                <div class="text-center">
+                    <h1 class="text-white" style="text-decoration:underline;font-size:35px">
+                        VIT-AP University:
+                    </h1>
+                    <br>
+                    <h1 class="text-white" style="font-size:20px">
+                        Student Login
+                    </h1>
+                    <br>
+                </div>
+                <form>
+                    <div class="text-center">
+                        <label class="label-in">User I'd: </label>
+                        <input class="user_name_in" id="UserName" name="UserName" placeholder="Your registration number" type="text" value="">
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <label class="label-in">Password: </label>
+                        <input class="password_in" id="UserPassword" name="UserPassword" placeholder="Enter your password" type="password">
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <button class="submit" onclick="display('sectionStudentHome')">Login</button>
+                    </div>
+                </form>
+                <br>
+                <p class="text-center text-white">Forgot password? <a href="#" onclick="display('sectionForget')">Click Here</a></p>
+                <p class="text-center text-white">New User? <a href="#" onclick="display('sectionReg')">Register Here</a></p>
+                <p class="text-center text-white">To login to the Staff Account, <a href="#" onclick="display('sectionStaff')">click here</a></p>
+                <hr>
+                <a href="#" onclick="display('sectionHome')" class="text-center">Back to Home</a>
+            </div>
+        </div>
+    </div>
+    <div id="sectionStudentHome">
+        <div class="bg-6 d-flex flex-row justify-content-center">
+            <div class="bg-student-home">
+                <h1 style="color:white;padding-top:25px;font-size:30px;text-align:center">Hello Dear Student,</h1>
+                <hr>
+                <p class="text-white text-center" style="font-size:20px;padding:18px">Your registration number: 21MIC7183</p>
+                <hr>
+                <p class="text-white text-center" style="font-size:20px;padding:18px">Total number of books with you : 6</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionStaff">
+        <div class="bg-2">
+            <div class="bg-login d-flex flex-column justify-content-center">
+                <div class="text-center">
+                    <h1 class="text-white" style="text-decoration:underline;font-size:35px">
+                        VIT-AP University:
+                    </h1>
+                    <br>
+                    <h1 class="text-white" style="font-size:20px">
+                        Staff Login
+                    </h1>
+                    <br>
+                </div>
+                <form>
+                    <div class="text-center">
+                        <label class="label-in">User I'd: </label>
+                        <input class="user_name_in" id="UserName" name="UserName" placeholder="Your registration number" type="text" value="">
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <label class="label-in">Password: </label>
+                        <input class="password_in" id="UserPassword" name="UserPassword" placeholder="Enter your password" type="password">
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <button class="submit" onclick="display('sectionStaffHome')">Login</button>
+                    </div>
+                </form>
+                <br>
+                <p class="text-center text-white">Forgot password? <a href="#" onclick="display('sectionForget')">Click Here</a></p>
+                <p class="text-center text-white">New User? <a href="#" onclick="display('sectionReg')">Register Here</a></p>
+                <p class="text-center text-white">To login to the Student Account, <a href="#" onclick="display('sectionStaff')">click here</a></p>
+                <hr>
+                <a href="#" onclick="display('sectionHome')" class="text-center">Back to Home</a>
+            </div>
+        </div>
+    </div>
+    <div id="sectionStaffHome">
+        <div class="bg-6 d-flex flex-row justify-content-center">
+            <div class="bg-staff-home">
+                <h1 style="color:white;padding-top:25px;font-size:30px;text-align:center">Hello Dr. Librarian,</h1>
+                <hr>
+                <p class="text-white" style="font-size:20px;padding:18px">Total number of books : 633</p>
+                <p class="text-white" style="font-size:20px;padding:18px">Number of books available : 548</p>
+                <hr>
+                <p class="text-white" style="font-size:20px;padding:18px">Number of books borrowed : 85</p>
+                <hr>
+                <p class="text-white" style="font-size:20px;padding:18px">Number of Students present in the Library : 534</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionReg">
+        <div class="bg-3">
+            <div class="bg-reg d-flex flex-column justify-content-center">
+                <div class="text-center">
+                    <h1 class="text-white" style="text-decoration:underline;font-size:35px">
+                        Sign Up to VIT-AP Library:
+                    </h1>
+                    <br>
+                </div>
+                <form>
+                    <div class="text-center">
+                        <label class="label-in">First Name: </label>
+                        <span style="margin-left:74px"><input class="user_name_in" id="UserName" name="UserName" placeholder="Enter First Name" type="text" value=""></span>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <label class="label-in">Last Name: </label>
+                        <span style="margin-left:78px"><input class="user_name_in" id="UserName" name="UserName" placeholder="Enter Last Name" type="text" value=""></span>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <label class="label-in">Registration number: </label>
+                        <span style="margin-left:2px"><input class="user_name_in" id="UserName" name="UserName" placeholder="Ex: 21MIC7183" type="text" value=""></span>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <label class="label-in">E-mail: </label>
+                        <span style="margin-left:111px"><input class="user_name_in" id="UserName" name="UserName" placeholder="Institution mail I'd" type="text" value=""></span>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <label class="label-in">Mobile Number: </label>
+                        <span style="margin-left:40px"><input class="user_name_in" id="UserName" name="UserName" placeholder="Your Mobile Number" type="text" value=""></span>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <label class="label-in">Create Password: </label>
+                        <span style="margin-left:49px"><input class="password_in" id="UserPassword" name="UserPassword" placeholder="Enter new password" type="password"></span>
+                    </div>
+                    <br>
+                    <div class="text-right">
+                        <span style="margin-right:91px"><input type="submit" value="Next" class="submit1"></span>
+                    </div>
+                </form>
+                <br>
+                <p class="text-center text-white">Already signed up? <a href="#" onclick="display('sectionLogin')">Login Here</a></p>
+                <hr>
+                <a href="#" onclick="display('sectionHome')" class="text-center">Back to Home</a>
+            </div>
+        </div>
+    </div>
+    <div id="sectionForget">
+        <div class="bg-4 d-flex flex-row justify-content-center">
+            <div class="forget_bg">
+                <div class="text-center">
+                    <h1 class="text-white" style="text-decoration:underline;font-size:35px">
+                        VIT-AP University:
+                    </h1>
+                    <br>
+                    <h1 class="text-white" style="font-size:20px">
+                        Forgot password? Reset here
+                    </h1>
+                    <br>
+                </div>
+                <form>
+                    <div class="text-center">
+                        <label class="label-in">User I'd: </label>
+                        <input class="user_name_in" id="UserName" name="UserName" placeholder="Your registration number" type="text" value="">
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <button class="submit" onclick="display('sectionStaffHome')">Next</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="sectionContact">
+        <div class="bg-5">
+            <div class="contact_bg d-flex flex-column justify-content-center">
+                <h1 class="contact_h1">Contact Us :</h1>
+                <br><br>
+                <p class="contact_p">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg><br>
+                    <a href="tel:+91-9581014662">+91-9581014662</a><br>
+                </p>
+                <br>
+                <p class="contact_p">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg><br>
+                    <a href="mailto: hemavenkat8642@gmail.com">hemavenkat8642@gmail.com</a>
+                </p>
+                <hr>
+                <p class="text-white text-center" style="font-size:16px">© Group-I | Developed by Group-I</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
