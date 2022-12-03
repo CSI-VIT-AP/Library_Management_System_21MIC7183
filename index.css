@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-1 {
+    background-image: url('https://res.cloudinary.com/dsd8yegd2/image/upload/v1668511969/samples/smart-female-student-with-book-library_fuy1wd.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 100px;
+}
+
+.bg-2 {
+    background-image: url('https://res.cloudinary.com/dsd8yegd2/image/upload/v1668511969/samples/laptop-computer-book-workplace-library-room_fw9uhu.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 150px;
+}
+
+.bg-3 {
+    background-image: url('https://res.cloudinary.com/dsd8yegd2/image/upload/v1668511968/samples/book-library-with-open-textbook_mb1zxq.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 58px;
+    padding-top: 147px;
+}
+
+.bg-4 {
+    background-image: url('https://res.cloudinary.com/dsd8yegd2/image/upload/v1668510285/samples/d8f02585199314095e0c738de7dbed02_knbiop.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 200px;
+}
+
+.bg-5 {
+    background-image: url('https://res.cloudinary.com/dsd8yegd2/image/upload/v1668511295/samples/concept-contact-us-blank-wooden-cubes-square-dice-with-symbol-email-telephone-address-placed-wood-background_44868-1254_ofa0aa.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 100px;
+}
+
+.bg-6 {
+    background-image: url('https://res.cloudinary.com/dsd8yegd2/image/upload/v1669203177/samples/wooden-table-with-blurred-background_r4g4qx.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 165px;
+}
+
+.bg-staff-home {
+    background-color: #00000080;
+    height: 500px;
+    width: 400px;
+    border-radius: 12px;
+}
+
+.bg-student-home {
+    background-color: #00000080;
+    height: 270px;
+    width: 400px;
+    border-radius: 12px;
+}
+
+.span1 {
+    color: black;
+    font-weight: normal;
+    font-size: 23px;
+    margin-left: 6px;
+    font-family: Bree Serif;
+}
+
+.bg-login {
+    background-color: #00000080;
+    background-size: cover;
+    width: 400px;
+    height: 530px;
+    border-radius: 10px;
+}
+
+.bg-reg {
+    background-color: #00000080;
+    background-size: cover;
+    width: 550px;
+    height: 650px;
+    border-radius: 10px;
+}
+
+.label-in {
+    color: white;
+    font-weight: bold;
+}
+
+.in {
+    padding: 5px;
+}
+
+.user_name_in {
+    margin-left: 15px;
+}
+
+.password_in {
+    margin-left: 2px;
+}
+
+.submit {
+    background-color: #006dcc;
+    color: white;
+    border-radius: 7px;
+    border-color: white;
+}
+
+.submit1 {
+    background-color: #006dcc;
+    color: white;
+    border-radius: 7px;
+    border-color: white;
+}
+
+.welcome {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.points {
+    font-size: 27px;
+    padding: 10px;
+}
+
+.vitap_bg {
+    background-image: url('https://res.cloudinary.com/dsd8yegd2/image/upload/v1668579654/samples/download_cwpa3q_1_gexivd.png');
+    background-size: cover;
+    background-position: center;
+    width: 558px;
+    height: 710px;
+    border-radius: 15px;
+}
+
+.vitap {
+    background-color: #00000080;
+    background-size: cover;
+    width: 558px;
+    height: 710px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.contact_p {
+    color: white;
+    font-size: 24px;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.contact_bg {
+    background-color: #9c9c9c;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.contact_h1 {
+    color: #d4ffff;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.forget_bg {
+    background-color: #00000080;
+    width: 380px;
+    height: 255px;
+    padding: 20px;
+    border-radius: 12px;
+}
